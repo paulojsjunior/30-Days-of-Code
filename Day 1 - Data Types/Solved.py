@@ -2,7 +2,9 @@ i = 4
 d = 4.0
 s = 'HackerRank '
 # Declare second integer, double, and String variables.
-
+a = 12
+b = 4.0
+c = 'is the best place to learn and practice coding!'
 # Read and save an integer, double, and String to your variables.
 
 # Print the sum of both integer variables on a new line.
