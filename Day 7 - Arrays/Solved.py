@@ -10,3 +10,6 @@ if __name__ == '__main__':
 
     arr = list(map(int, input().rstrip().split()))
     reverse = arr[::-1]
+
+    for i in reverse:
+        print(i, end=" ")
