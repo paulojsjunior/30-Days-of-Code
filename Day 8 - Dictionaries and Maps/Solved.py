@@ -5,8 +5,11 @@ for i in range(N):
     contactName, phoneNumber = input().split(' ')
     phoneBook[contactName] = phoneNumber
 
-for j in range(N):
-    name = input()
+while True:
+    try:
+        name = input()
+    except E0FError:
+        break
 
     if name in phoneBook.keys():
         print(f'{name}={phoneBook[phoneNumber]}')
